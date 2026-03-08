@@ -2,9 +2,9 @@
 
 This list is based on the original collection from [Dr. Myron Hlynka at University of Windsor](https://web2.uwindsor.ca/math/hlynka/qsoft.html). See also [Myron Hlynka's Queueing Theory Page](https://web2.uwindsor.ca/math/hlynka/queue.html) for more interesting links and information.
 
-All resources are freely available except those with a 💲 icon.
+This list is not a pure awesome list (see [the awesome manifesto](https://github.com/sindresorhus/awesome/blob/main/awesome.md)). The list preserves the partly historical entries that Dr. Hlynka has compiled over 25 years, but also does justice to the concept of an awesome list with the recommendation sections preceding each section.
 
-TODO: Zu beachten: [The awesome manifesto](https://github.com/sindresorhus/awesome/blob/main/awesome.md)
+All resources are freely available except those with a 💲 icon.
 
 ## Content
 - [List of Queueing Theory Software ](#list-of-queueing-theory-software-)
@@ -22,9 +22,8 @@ TODO: Zu beachten: [The awesome manifesto](https://github.com/sindresorhus/aweso
     - [Julia packages](#julia-packages)
     - [MATLAB packages](#matlab-packages)
     - [Octave packages](#octave-packages)
-    - [Python packages](#python-packages)
+    - [Python packages and programs](#python-packages-and-programs)
     - [R packages](#r-packages)
-  - [TODO: einsortieren](#todo-einsortieren)
 
 
 
@@ -34,11 +33,9 @@ TODO: Zu beachten: [The awesome manifesto](https://github.com/sindresorhus/aweso
 
 ### Open source
 
-TODO: Hervorhebungsmodi ausprobieren
+> **Recommendation:**<br>
+> If you need 3D simulation, try [JaamSim](https://jaamsim.com/). If you want to model on flow chart base or need advanced statistics recording, try [Warteschlangensimulator](https://a-herzog.github.io/Warteschlangensimulator/).
 
-<div style="border: 1px solid green; background-color: rgba(128,255,128,0.2); padding: 5px; margin-bottom: 5px;">
-**Recommendation:** If you need 3D simulation, try [JaamSim](https://jaamsim.com/). If you want to model on flow chart base or need advanced statistics recording, try [Warteschlangensimulator](https://a-herzog.github.io/Warteschlangensimulator/).
-</div>
 
 - **[Callcenter Simulator](https://github.com/A-Herzog/Callcenter-Simulator)**
 
@@ -50,6 +47,16 @@ TODO: Hervorhebungsmodi ausprobieren
   - Languages: English, German
   - Author: [Dr. Alexander Herzog, Simulation Science Center Clausthal-Göttingen (Germany)](https://www.simzentrum.de/personen/herzog)
   - Additional material: ["Callcenter Analyse und Management" (text book, german)](https://www.springer.com/de/book/9783658183080)
+
+- **[DATAPLOT](http://www.itl.nist.gov/div898/software/dataplot/summary.htm)**
+
+  DATAPLOT is not a queueing package but it includes some useful distributions used in queueing.
+  - License: NIST Public Domain
+  - Platform: Windows, Linux, MacOS
+  - Repository: [GitHub](https://github.com/usnistgov/dataplot)
+  - Listed since: June 2013
+  - Language: English
+  - Author: Alan Heckert, Statistical Engineering Division, NIST
 
 - **[JaamSim](https://jaamsim.com/)**
 
@@ -82,6 +89,14 @@ TODO: Hervorhebungsmodi ausprobieren
   - Author: [Dr. Alexander Herzog, Simulation Science Center Clausthal-Göttingen (Germany)](https://www.simzentrum.de/personen/herzog)
   - Additional material: ["Callcenter Analyse und Management" (text book, german)](https://www.springer.com/de/book/9783658183080)
 
+- **[PowerDEVS](https://github.com/CIFASIS/power-devs)**
+
+  PowerDEVS is a general purpose software tool for discrete-event system modeling and simulation oriented to the simulation of hybrid systems. The environment allows defining atomic DEVS models in C++ language that can be then graphically coupled in hierarchical block diagrams to create more complex systems.
+  - License: LGPL
+  - Platforms: Linux, Windows (via WSL)
+  - Listed since: March 2026
+  - Language: English
+
 - **[Prism](https://www.prismmodelchecker.org/)**
 
   PRISM is a probabilistic model checker, a tool for formal modelling and analysis of systems that exhibit   random or probabilistic behaviour. It has been used to analyse systems from many different application   domains, including communication and multimedia protocols, randomised distributed algorithms, security   protocols, biological systems and many others.
@@ -91,6 +106,14 @@ TODO: Hervorhebungsmodi ausprobieren
   - Listed since: December 2010
   - Language: English
   - Additional Material: [PRISM 4.0: Verification of Probabilistic Real-time Systems (pdf)](https://www.  prismmodelchecker.org/papers/cav11.pdf)
+
+- **[QNet Approximator](https://www.math-cs.gordon.edu/qna/)**
+
+  QNet Approximator consists of four programs that compute lower and upper bounds on the optimal average cost for a class of stochastic processing networks by solving an approximate linear program (ALP). A fifth program generates policies from ALP solutions.
+  - Platform: Linux
+  - Listed since: October 2009
+  - Language: English
+  - Authors: Michael Veatch and Jonathan Senning, Department of Mathematics and Computer Science, Gordon College
 
 - **[SimulME](https://sourceforge.net/projects/simulme/)**
 
@@ -124,6 +147,9 @@ TODO: Hervorhebungsmodi ausprobieren
 
 ### Commercial
 
+> **Recommendation:**<br>
+> Since recommendations commercial software quickly become advertising and the programs listed address very different target groups, we will refrain from making specific recommendations here. As some of the programs are very expensive, it is advisable to thoroughly check the respective functions before making a purchase.
+
 - **[AnyLogic](https://www.anylogic.com/)** 💲
 
   AnyLogic is a multimethod simulation modeling tool. It supports agent-based, discrete event, and system dynamics simulation methodologies.
@@ -131,6 +157,14 @@ TODO: Hervorhebungsmodi ausprobieren
   - Platform: Java (Windows, Linux, MacOS)
   - Listed since: March 2026
   - Languages: English, Chinese, Spanish, Russian, Portuguese
+
+- **[CADP: Construction and Analysis of Distributed Processes](https://cadp.inria.fr/)** 💲
+
+  CADP ("Construction and Analysis of Distributed Processes") is a popular toolbox for the design of communication protocols and distributed systems.
+  - License: CADP is distributed free of charge to universities and public research centers. Users in industry can obtain an evaluation license for non-commercial use during a limited period of time, after which a full license is required.
+  - Platform: Windows, Linux, MacOS, OpenIndiana
+  - Listed since: February 2011
+  - Language: English
 
 - **[Enterprise Dynamics](https://www.incontrolsim.com/)** 💲
 
@@ -234,7 +268,8 @@ TODO: Hervorhebungsmodi ausprobieren
 
 ## Web services
 
-**Recommendation:** [Queue calculator / Warteschlangenrechner](https://a-herzog.github.io/QueueCalc) can calculate nearly all analytically available models and show values, charts and tables. If you want to run flow chart based simulations, try [Mini Warteschlangensimulator](https://a-herzog.github.io/MiniWarteschlangensimulator). [QSA]((https://qsa.inf.unideb.hu/)) comes with a complete queueing theory text book.
+> **Recommendation:**<br>
+> [Queue calculator / Warteschlangenrechner](https://a-herzog.github.io/QueueCalc) can calculate nearly all analytically available models and show values, charts and tables. If you want to run flow chart based simulations, try [Mini Warteschlangensimulator](https://a-herzog.github.io/MiniWarteschlangensimulator). [QSA]((https://qsa.inf.unideb.hu/)) comes with a complete queueing theory text book.
 
 - **[Call Center Optimization](http://www.math.vu.nl/~koole/ccmath/)**
 
@@ -346,6 +381,16 @@ TODO: Hervorhebungsmodi ausprobieren
 
 ### C/C++ code
 
+- **[gem5](https://www.gem5.org/)**
+
+  The gem5 simulator is an open source discrete-event computer architecture simulator. It combines system-level and microarchitectural simulation, allowing users to analyze and test a multiplicity of hardware configurations, architectures, and software environments, without access or development of any hardware.
+  - License: BSD-3-Clause license
+  - Platforms: Linux, MacOS
+  - Repository: [Github](https://github.com/gem5/gem5)
+  - Listed since: March 2026
+  - Language: English
+  - Additional material: [Documentation](https://www.gem5.org/documentation/)
+
 - **[MAMSolver](https://www.cs.wm.edu/MAMSolver/)**
 
   MAMSolver is a tool that provides implementation for the matrix-analytic algorithms. The tool provides solutions for Markov chains of QBD, GI/M/1 and M/G/1-types.
@@ -360,7 +405,7 @@ TODO: Hervorhebungsmodi ausprobieren
   - Listed since: September 2006
   - Authors: [Contributors](https://www4.cs.fau.de/Projects/MOSEL/Contributors/)
 
-- [OMNeT++](https://omnetpp.org/)
+- **[OMNeT++](https://omnetpp.org/)**
 
   OMNeT++ (Objective Modular Network Testbed in C++) is a modular, component-based C++ simulation library and framework, primarily for building network simulators.
   - License: Academic Public License
@@ -369,13 +414,13 @@ TODO: Hervorhebungsmodi ausprobieren
 
 - **[PDQ: Pretty Damn Quick Performance Analyzer](https://www.perfdynamics.com/Tools/PDQ.html)**
 
-From a performance standpoint, a modern computer system can be thought of as a directed graph of individual buffers where requests may wait for service at some computational resource, e.g., a CPU processor. Since a buffer is just a queue, all computer systems can be represented as a directed graph of queues. The directed arcs represent flows between different queueing resources. PDQ computes the performance metrics of such a graph. A directed graph of queues is generally referred to as a queueing network model.
-- Listed since: March 2011
-- Language: English
-- Authors: Peter Harding, Greg Hunt, Vahid Negahdari, Denny Chen
-- Additional material:
-  - [Manual](https://www.perfdynamics.com/Tools/PDQman.html)
-  - [Textbook: The Practical Performance Analyst](https://www.amazon.com/exec/obidos/ASIN/059512674X/qid%3D977123507/sr%3D1-1/102-6121964-7921737)
+  From a performance standpoint, a modern computer system can be thought of as a directed graph of individual buffers where requests may wait for service at some computational resource, e.g., a CPU processor. Since a buffer is just a queue, all computer systems can be represented as a directed graph of queues. The directed arcs represent flows between different queueing resources. PDQ computes the performance metrics of such a graph. A directed graph of queues is generally referred to as a queueing network model.
+  - Listed since: March 2011
+  - Language: English
+  - Authors: Peter Harding, Greg Hunt, Vahid Negahdari, Denny Chen
+  - Additional material:
+    - [Manual](https://www.perfdynamics.com/Tools/PDQman.html)
+    - [Textbook: The Practical Performance Analyst](https://www.amazon.com/exec/obidos/ASIN/059512674X/qid%3D977123507/sr%3D1-1/102-6121964-7921737)
 
 
 
@@ -507,6 +552,7 @@ From a performance standpoint, a modern computer system can be thought of as a d
   - Authors: Samuli Aalto, Esa Hyytiä, Jani Lakkakorpi, Ilkka Norros, Anssi Pirhonen, Vesa Timonen and Jorma   Virtamo
 
 
+
 ### Octave packages
 
 - **[Qnetworks](https://www.moreno.marzolla.name/software/queueing/)**
@@ -531,7 +577,10 @@ From a performance standpoint, a modern computer system can be thought of as a d
 
 
 
-### Python packages
+### Python packages and programs
+
+> **Recommendation:**<br>
+> For modeling queueing models, try [QueueSim](https://github.com/A-Herzog/QueueSim). For general purpose event-driven simulation have a look at [Civ](https://ciw.readthedocs.io/en/latest/) and [SimPy](https://simpy.readthedocs.io/en/latest/).
 
 - **[Civ](https://ciw.readthedocs.io/en/latest/)**
 
@@ -541,6 +590,26 @@ From a performance standpoint, a modern computer system can be thought of as a d
   - Listed since: March 2026
   - Language: English
   - Authors: [Contributors](https://github.com/CiwPython/Ciw/blob/master/AUTHORS.rst)
+
+- **[MM1K_Queue_Simulation](https://github.com/ImanRHT/MM1K_Queue_Simulation)**
+
+  A Performance Analysis of the M/M/1/K Queue Model via Discrete Event Simulation with Varied Service Orders
+  - License: Apache 2.0 license
+  - Platform: Python (Windows, Linux, MacOS)
+  - Repository: [GitHub](https://github.com/ImanRHT/MM1K_Queue_Simulation)
+  - Listed since: March 2026
+  - Language: English
+  - Author: [Iman Rahmati](https://github.com/ImanRHT)
+
+- **[Queueing ModelSim](https://github.com/AbdeltwabMF/queueing-modelsim)**
+
+  Queueing Models Simulator.
+  - License: GPL-3 license
+  - Platform: Python (Windows, Linux, MacOS)
+  - Repository: [GitHub](https://github.com/AbdeltwabMF/queueing-modelsim)
+  - Listed since: March 2026
+  - Language: English
+  - Author: [Abdeltwab M. Fakhry](https://github.com/AbdeltwabMF)
 
 - **[QueueSim](https://github.com/A-Herzog/QueueSim)**
 
@@ -564,6 +633,9 @@ From a performance standpoint, a modern computer system can be thought of as a d
 
 
 ### R packages
+
+> **Recommendation:**<br>
+> Try [Queuecomputer](https://cran.r-project.org/web/packages/queuecomputer/index.html).
 
 - **[Queuecomputer](https://cran.r-project.org/web/packages/queuecomputer/index.html)**
 
@@ -601,71 +673,3 @@ From a performance standpoint, a modern computer system can be thought of as a d
   - Listed since: March 2026
   - Language: English
   - Authors: Iñaki Ucar, Bart Smeets
-
-
-
-## TODO: einsortieren
-
-- **[DATAPLOT](http://www.itl.nist.gov/div898/software/dataplot/summary.htm)**
-
-  DATAPLOT is not a queueing package but it includes some useful distributions used in queueing.
-  - License: NIST Public Domain
-  - Platform: Windows, Linux, MacOS
-  - Repository: [GitHub](https://github.com/usnistgov/dataplot)
-  - Listed since: June 2013
-  - Language: English
-  - Author: Alan Heckert, Statistical Engineering Division, NIST
-
-- **[Queueing ModelSim](https://github.com/AbdeltwabMF/queueing-modelsim)**
-
-  Queueing Models Simulator.
-  - License: GPL-3 license
-  - Platform: Python (Windows, Linux, MacOS)
-  - Repository: [GitHub](https://github.com/AbdeltwabMF/queueing-modelsim)
-  - Listed since: March 2026
-  - Language: English
-  - Author: [Abdeltwab M. Fakhry](https://github.com/AbdeltwabMF)
-
-- **[MM1K_Queue_Simulation](https://github.com/ImanRHT/MM1K_Queue_Simulation)**
-
-  A Performance Analysis of the M/M/1/K Queue Model via Discrete Event Simulation with Varied Service Orders
-  - License: Apache 2.0 license
-  - Platform: Python (Windows, Linux, MacOS)
-  - Repository: [GitHub](https://github.com/ImanRHT/MM1K_Queue_Simulation)
-  - Listed since: March 2026
-  - Language: English
-  - Author: [Iman Rahmati](https://github.com/ImanRHT)
-
-- **[CADP: Construction and Analysis of Distributed Processes](https://cadp.inria.fr/)**
-
-  CADP ("Construction and Analysis of Distributed Processes") is a popular toolbox for the design of communication protocols and distributed systems.
-  - License: CADP is distributed free of charge to universities and public research centers. Users in industry can obtain an evaluation license for non-commercial use during a limited period of time, after which a full license is required.
-  - Platform: Windows, Linux, MacOS, OpenIndiana
-  - Listed since: February 2011
-  - Language: English
-
-- **[QNet Approximator](https://www.math-cs.gordon.edu/qna/)**
-
-  QNet Approximator consists of four programs that compute lower and upper bounds on the optimal average cost for a class of stochastic processing networks by solving an approximate linear program (ALP). A fifth program generates policies from ALP solutions.
-  - Platform: Linux
-  - Listed since: October 2009
-  - Language: English
-  - Authors: Michael Veatch and Jonathan Senning, Department of Mathematics and Computer Science, Gordon College
-
-- **[gem5](https://www.gem5.org/)**
-
-  The gem5 simulator is an open source discrete-event computer architecture simulator. It combines system-level and microarchitectural simulation, allowing users to analyze and test a multiplicity of hardware configurations, architectures, and software environments, without access or development of any hardware.
-  - License: BSD-3-Clause license
-  - Platforms: Linux, MacOS
-  - Repository: [Github](https://github.com/gem5/gem5)
-  - Listed since: March 2026
-  - Language: English
-  - Additional material: [Documentation](https://www.gem5.org/documentation/)
-
-- **[PowerDEVS](https://github.com/CIFASIS/power-devs)**
-
-  PowerDEVS is a general purpose software tool for discrete-event system modeling and simulation oriented to the simulation of hybrid systems. The environment allows defining atomic DEVS models in C++ language that can be then graphically coupled in hierarchical block diagrams to create more complex systems.
-  - License: LGPL
-  - Platforms: Linux, Windows (via WSL)
-  - Listed since: March 2026
-  - Language: English
