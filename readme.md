@@ -290,6 +290,7 @@ All resources are freely available except those with a 💲 icon.
   The G/G/c/K+G simulator is a web service for simulating queueing models with general inter-arrival and service times, with options for batch arrival, batch service, impatience, retry and forwarding.
   - License: Apache 2.0 license
   - Repository: [GitHub](https://github.com/A-Herzog/MiniSimulator)
+  - Offline version (Windows, Linux, MacOS) available
   - Listed since: March 2026
   - Languages: English, German
   - Author: [Dr. Alexander Herzog, Simulation Science Center Clausthal-Göttingen (Germany)](https://www.simzentrum.de/personen/herzog)
@@ -299,6 +300,7 @@ All resources are freely available except those with a 💲 icon.
   Mini Warteschlangensimulator is a web service for simulating queueing models.
   - License: Apache 2.0 license
   - Repository: [GitHub](https://github.com/A-Herzog/MiniWarteschlangensimulator)
+  - Offline version (Windows, Linux, MacOS) available
   - Listed since: March 2026
   - Languages: English, German
   - Author: [Dr. Alexander Herzog, Simulation Science Center Clausthal-Göttingen (Germany)](https://www.simzentrum.de/personen/herzog)
@@ -318,6 +320,7 @@ All resources are freely available except those with a 💲 icon.
   Queue calculator is a web service for calculating the characteristics of different queueing models.
   - License: Apache 2.0 license
   - Repository: [GitHub](https://github.com/A-Herzog/QueueCalc)
+  - Offline version (Windows, Linux, MacOS) available
   - Listed since: March 2026
   - Languages: English, German
   - Author: [Dr. Alexander Herzog, Simulation Science Center Clausthal-Göttingen (Germany)](https://www.simzentrum.de/personen/herzog)
