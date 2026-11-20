@@ -278,6 +278,13 @@ All resources are freely available except those with a 💲 icon.
   - Language: English
   - Author: [Prof. Ger Koole](https://www.gerkoole.com/)
 
+- **[Erlang C Calculator (Resolution-to-Cost Index)](https://www.resolutionindex.com/tools/erlang-c-calculator)**
+
+  Erlang C calculator for call and contact centers. It finds the fewest agents that meet a service level target and shows the average speed of answer, occupancy and a staffing table around the answer. Options cover shrinkage, a maximum occupancy cap and the share of contacts handled by an AI agent before the queue.
+  - Listed since: November 2026
+  - Language: English
+  - Author: Resolution-to-Cost Index
+
 - **[Free Erlang traffic calculators](https://www.erlang.com/calculator/)**
 
   Call Center calculator and several others.
@@ -487,6 +494,15 @@ All resources are freely available except those with a 💲 icon.
 
 
 ### Javascript packages
+
+- **[contact-center-math](https://andrewhall07.github.io/contact-center-math/)**
+
+  Dependency-free TypeScript functions for Erlang B and Erlang C: probability of waiting, service level, average speed of answer and the agents needed for a target, with shrinkage and occupancy caps. Erlang B is computed by recursion, so results stay numerically stable for thousands of agents; the tests check it against the closed-form formula.
+  - License: MIT license
+  - Repository: [GitHub](https://github.com/andrewhall07/contact-center-math)
+  - Listed since: November 2026
+  - Language: English
+  - Author: [Andrew](https://github.com/andrewhall07)
 
 - **[SIM.JS](https://simjs.z5.web.core.windows.net/)**
 
